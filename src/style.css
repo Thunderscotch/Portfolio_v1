@@ -161,8 +161,8 @@ nav.navbar a:hover {
 .menu-toggle {
     display: none;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     /* font-size: 2rem; */
     color: var(--light-blue);
     background: rgba(250, 250, 250, 0.2);
@@ -290,13 +290,12 @@ main {
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-    /* hides overflow outside the circle */
     display: flex;
-    top: -220px;
-    left: -140px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
     border: 2px solid #555;
-    /* optional */
 }
 
 .circle img {
@@ -385,8 +384,8 @@ p {
 
 .project-card img {
     object-fit: cover;
-    width: 80%;
-    height: 200px;
+    width: 60%;
+    height: 250px;
     border-radius: 10px;
     /* margin-bottom: 1rem; */
 }
@@ -447,10 +446,6 @@ section h1 {
 }
 
 @media (min-width: 768px) and (max-width: 1023px)  {
-    .circle {
-        top: -18%;
-        left: -42%;
-    }
 
     nav.navbar {
         display: block;
@@ -472,7 +467,7 @@ section h1 {
     }
 
     header h1 {
-        font-size: var(--text-7);
+        font-size: var(--text-6);
     }
 
     header h2 {
@@ -517,11 +512,6 @@ section h1 {
 }
 
 @media (min-width: 1024px) and (max-width: 1439px)  {
-    .circle {
-        top: -14%;
-        left: -44%;
-    }
-
     nav.navbar {
         display: block;
 
@@ -583,8 +573,6 @@ section h1 {
 
 @media (min-width: 1440px) and (max-width: 2560px) {
     .circle {
-        top: -21%;
-        left: -44%;
         width: 60px;
         height: 60px;
     }
