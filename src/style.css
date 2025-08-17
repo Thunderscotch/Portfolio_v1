@@ -62,7 +62,7 @@ header::before {
 header {
     position: relative;
     background-image: url(./images/image2.jpeg);
-    width: 105%;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -219,10 +219,9 @@ nav.navbar a:hover {
         display: block;
     }
 
-    /* header {
-    width: 450px;
-    height: 300px;
-    } */
+    header {
+    width: 105%;
+    }
 }
 
 body {
