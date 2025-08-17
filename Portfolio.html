@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subash | Portfolio – Chasing Knowledge, Building Impact</title>
+    <meta name="description"
+        content="A curious developer and artist on a mission to achieve something beyond limits. Passionate about IoT, web development, and chasing knowledge that thrives against time.">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="Portfolio, Developer, IoT Projects, Web Development, AI/ML, Artist, Knowledge Seeker, Innovation, Full Stack Developer">
+
+    <!-- Author -->
+    <meta name="author" content="Subash">
+    <meta property="og:title" content="Subash | Portfolio – Chasing Knowledge, Building Impact">
+    <meta property="og:description"
+        content="Beyond a developer, I am a seeker of knowledge and an artist at heart. Explore my journey of IoT projects, web development, and striving to create something impactful.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-portfolio-link.vercel.app/">
+    <meta property="og:image" content="https://your-portfolio-link.vercel.app/preview-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Subash | Portfolio – Chasing Knowledge, Building Impact">
+    <meta name="twitter:description" content="I’m not just a developer—I’m a knowledge chaser, artist, and innovator.">
+    <meta name="twitter:image" content="https://your-portfolio-link.vercel.app/preview-image.png">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+</html>
+
+<body>
+
+    <header role="heading" aria-level="1" aria-label="Header">
+        <div class="circle">
+            <img src="./images/logo.jpg" alt="logo image">
+        </div>
+        <div class="name-container">
+            <h2>Hi! I'm</h2>
+            <h1>Subash Natrayan</h1>
+            <h3>Aspiring React Developer</h3>
+        </div>
+    </header>
+    <!-- Normal Nav for desktop/tablet -->
+    <nav class="navbar">
+        <a href="#aboutMe"> About </a>
+        <a href="#truth"> Truth </a>
+        <a href="#Motto"> Motto </a>
+        <a href="#projects"> Projects </a>
+        <a href="#blogs"> Blogs </a>
+        <a href="#contact"> Contact </a>
+    </nav>
+
+    <!-- Sidebar for mobile -->
+    <div class="menu-toggle" onclick="toggleSidebar()">☰</div>
+    <div class="sidebar" id="sidebar">
+        <a href="#aboutMe"> About </a>
+        <a href="#truth"> Truth </a>
+        <a href="#Motto"> Motto </a>
+        <a href="#projects"> Projects </a>
+        <a href="#blogs"> Blogs </a>
+        <a href="#contact"> Contact </a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
+
+    <main role="Main" aria-label="Main Content">
+        <section id="aboutMe" aria-label="About Me">
+            <h1 role="heading" aria-level="1" aria-labelledby="about">About Me</h1>
+            <p id="about">
+                <q>
+                    I’m not here to sugarcoat things—I’m just a normal human with an abnormal hunger. <br>
+                    A hunger for knowledge, for creation, for that one breakthrough that makes me feel like I’ve carved
+                    my mark into time. <br>
+
+                    Yes, I’m a developer. Yes, I’ve built IoT projects, played with web technologies, and chased
+                    countless ideas in college. But beyond the code, I’m also an artist. My mind doesn’t see tech as
+                    wires and syntax—it sees shapes, patterns, and stories waiting to be told through innovation.
+                </q>
+            </p>
+            <div class="contact-me">
+            <a href="https://www.linkedin.com/in/subash-natrayan-r-m-4654aa319" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <p>Cantact Me</p>
+            </a>
+        </div>
+        </section>
+
+        <section class="truth" id="truth" aria-label="Truth">
+            <h1 role="heading" aria-level="1" aria-labelledby="truth">Truth</h1>
+            <p>I carry a heavy sin: <b>Greed.</b><br>
+                Not for <b>money.</b> <br>
+                Not for <b>fame.</b> <br>
+                But for <b>knowledge.</b> <br>
+
+                <br>
+
+
+            <div class="poem-container">
+
+                <div class="poem-stanza">
+                    <p class="poem-line">If I don't achieve <span class="highlight">it</span>,</p>
+                    <p class="poem-line indent"><span class="highlight">Wrath</span> takes over.</p>
+
+                    <p class="poem-line">If I delay <span class="highlight">it</span>,</p>
+                    <p class="poem-line indent"><span class="highlight">Sloth</span> tempts me.</p>
+
+                    <p class="poem-line">If I consume too much at <span class="highlight">once</span>,</p>
+                    <p class="poem-line indent"><span class="highlight">Gluttony</span> burns me out.</p>
+
+                    <p class="poem-line">When I finally achieve <span class="highlight">something</span>,</p>
+                    <p class="poem-line indent"><span class="highlight">Pride</span> sneaks in.</p>
+
+                    <p class="poem-line">And when I see someone <span class="highlight">ahead of me</span>,</p>
+                    <p class="poem-line indent"><span class="highlight">Envy</span> fuels me again.</p>
+                </div>
+
+                <p class="poem-line closing">I'm a storm of contradictions,</p>
+                <p class="poem-line closing">but all of it pushes me in one direction—</p>
+                <p class="poem-line final"><span class="highlight" style="font-size: xx-large;">forward.</span></p>
+            </div>
+            </p>
+        </section>
+        <section id="Motto" aria-label="Motto" style="display: flex; flex-direction: column; text-align: center;">
+            <h1 role="heading" aria-level="1" aria-labelledby="motto">What Drives Me</h1>
+            <p>Knowledge. Not specific, not limited—<b>everything.</b></p>
+            <p>I thrive in the chase. The unknown excites me more than the known.</p>
+            <h2>My motto?</h2>
+            <p id="motto" style="font-style: italic;"><q>Those who strive for knowledge will thrive against time.</q></p>
+            <p>That’s who I am. Not perfect, not polished—but endlessly driven.</p>
+            <p>One field I’m especially drawn to is Game AI research—the art of creating intelligence that feels alive,
+                and the science of exploring worlds yet to be discovered. For me, it’s more than just games; it’s about
+                exploring the unexplored universe of intelligence and imagination.</p>
+        </section>
+
+        <section id="projects" aria-label="Projects">
+            <h1 role="heading" aria-level="1" aria-labelledby="projects">Projects</h1>
+            <div class="project-container" id="projects">
+                <div class="project-card">
+                    <h2>ProtecWatch</h2>
+                    <img src="./images/nsl.jpeg" alt="ProtecWatch product image">
+                    <p>Worked on a project related to <b>IoT</b></p>
+                </div>
+                <div class="project-card">
+                    <h2>Stupro</h2>
+                    <img src="./images/stupro.png" alt="Stupro">
+                    <p>Worked on a project related to <b>App development</b></p>
+                </div>
+                <div class="project-card">
+                    <h2>SLT</h2>
+                    <img src="./images/SLT.jpg" alt="Sign Language Translator">
+                    <p>Worked on a project related to <b>Machine Learning</b></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs" aria-label="Blogs">
+            <h1 role="heading" aria-level="1" aria-labelledby="blogs">Blogs</h1>
+            <div class="project-container" id="blogs">
+                <div class="project-card">                    
+                    <img src="./images/jotai.webp" alt="Blog on jotai">
+                    <p>🌃<b>Axios</b> in React: The Joyful Guide to Painless API Calls</p>
+                </div>
+                <div class="project-card">
+                    <img src="./images/axios.webp" alt="Blog on Axios">
+                    <p>🌱 I Found My New Favorite Way to Manage State: <b>Jotai</b> is Magic in Atoms!</p>
+                </div>
+                <div class="project-card">
+                    <img src="./images/zustand.webp" alt="Blog on Zustand">
+                    <p>🦚<b>Zustand </b>: The Tiny State Manager That Quietly Saved My Sanity</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" aria-label="Contact">
+            <h1 role="heading" aria-level="1" aria-labelledby="contact">Contact</h1>
+            <p id="contact" style="font-style: italic; display: flex; justify-content: center;">Contact me at:</p>
+            <div class="social">
+            <a href="https://github.com/Thunderscotch" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="./images/github (2).png" alt="Github Contact" width="40" height="40">
+              </a>
+              <a href="https://www.linkedin.com/in/subash-natrayan-r-m-4654aa319" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <img src="./images/linkedin.png" alt="Linkedin contact" width="40" height="40">
+              </a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
+
+</body>
