@@ -211,16 +211,13 @@ nav.navbar a:hover {
     background-color: var(--green-blue);
 }
 
-/* Mobile View Rules */
 @media(max-width: 767px) {
     nav.navbar {
         display: none;
-        /* hide normal nav */
     }
 
     .menu-toggle {
         display: block;
-        /* show hamburger */
     }
     header {
     width: 450px;
@@ -230,11 +227,9 @@ nav.navbar a:hover {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* Body text */
     background: #000814;
     margin: 0;
     padding: 0;
-    /* background-color: var(--color-background); */
     color: var(--color-text-dark);
     line-height: 1.6;
     font-size: var(--text-0);
@@ -242,7 +237,6 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    /* Elegant */
     color: var(--vivid-sky-blue);
     letter-spacing: 1px;
     margin-bottom: 0.4em;
@@ -250,7 +244,6 @@ h1 {
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    /* Modern & bold */
     color: var(--celestial-blue);
     letter-spacing: 1px;
     margin-bottom: 0.4em;
@@ -259,7 +252,6 @@ h2 {
 h3,
 h4 {
     font-family: 'Poppins', sans-serif;
-    /* Clean & minimal */
     color: var(--picton-blue);
     font-weight: 300;
     letter-spacing: 1.2px;
